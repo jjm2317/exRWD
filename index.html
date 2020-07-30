@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="./css/small.css" media="screen and (min-width: 320px) and (min-width: 320px) and 
   (max-width: 999px)">
   <link rel="stylesheet" href="./css/large.css" media="screen and (min-width: 1000px)">
-  <script src="./js/grid.js"></script>
+  <script src="./js/grid.js" defer></script>
+  <script src="./js/app.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -34,7 +35,7 @@
         </fieldset>
       </form>
     </header>
-    <nav class="appNavigation menu ">
+    <nav class="appNavigation menu">
       <h2 class="a11yHidden">메인 메뉴</h2>
       <button class="buttonNone buttonBurger" aria-label="메뉴 열기">
         <span class="burgerBar round positionTop"></span>
@@ -42,7 +43,7 @@
         <span class="burgerBar round positionBottom"></span>
       </button>
       <ul class="menu__list resetList">
-        <li class="menu__item">
+        <li class="menu__item menuAct">
           <a href="#" class="menu__link">HTML에 대해</a>
           <ul class="menu__subMenu">
             <li><a href="#">HTML5 소개</a></li>

@@ -101,14 +101,53 @@ transition: all 200ms ease-in-out;
   transform:translateY(-50%) rotate(-45deg);
 }
 .menu__list {
-  background-color: purple;
+  /* background-color: #38302e; */
+  /* filter: blur(4px); */
   position: fixed;
   top: 0;
   left: 0;
   width: 70vw;
   height: 100vh;
-  transform: translateX(-100%);
+  transform: translateX(-105%);
+  padding: 20px;
+  color: #fff;
+  background-color: rgba( 0,0,0,0.5);
+  backdrop-filter: blur(3px);
 }
+/* .menu__item{
+  display: flex;
+  flex-flow: row wrap;
+} */
+.menu__link{
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  display:inline-block;
+  width: calc(100% - 1.5em)
+}
+/* .menu__item::before{
+  vertical-align: middle;
+} */
+.menuAct .menu__subMenu{
+  display: block;
+}
+.isAct .menu__list{
+  transform: none;
+}
+.menu__subMenu{
+  font-size: 1.6rem;
+  width: 100%;
+  display: none;
+}
+.menu__subMenu li{
+  margin: 10px 0;
+}
+.menu__subMenu a{
+  display: block;
+  padding: 5px 0 ;
+}
+
+
 /* 모바일 메인 콘텐츠 */
 .appMain {
   background-color: lime;
