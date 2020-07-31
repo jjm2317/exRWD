@@ -164,7 +164,15 @@ transition: all 200ms ease-in-out;
 .favorite__list a:hover::after, .favorite__list a:focus::after{
  left: 10em;
 }
+/* 모바일 트위터 */
+.twitter__userProfile{
+  text-align: right;
+}
 /* 모바일 푸터 */
-.appFooter {
-  background-color: orange;
+.address span{
+  display: block;
+
+}
+.appFooter{
+  line-height: 2;
 }

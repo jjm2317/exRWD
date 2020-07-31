@@ -143,3 +143,6 @@ body {
 .twitter{
   grid-area: 2/5/3/10;
 }
+.appFooter{
+  text-align: center;
+}
