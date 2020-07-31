@@ -365,7 +365,6 @@ input[type="search"]{
 }
 /* 공통 추천 서적 */
 .book{
-  background-color: yellow;
 }
 .book__cover{
   margin:15px 20px;
@@ -414,7 +413,56 @@ input[type="search"]{
 
 .book__info dd{
   margin : 0; */
+/* 공통 새소식 */
+.iframeContainer{
+  width: 100%;
+  height: 0 !important;
+  position: relative;
+}
+.iframe4To3{
+  padding-top: 75%;
+}
+.iframe16To9{
+  padding-top: 56.25%;
+}
+.iframe21To9{
+  padding-top: 42.857142857142855%;
+}
+.iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
+.news__videoContainer{
+  margin: 15px 20px;
+
+}
+video.responsive{
+  width: 100%;
+}
+.news__date{
+  display:block;
+  text-align: right;
+  margin: 1em 0;
+}
+/* .news__videoContainer{
+  padding-top:56.25%;
+  position:relative;
+}
+.iframe16To9{
+  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+}
+.iframe{
+  width: 100%;
+  height: 100%;
+} */
 /* 공통 푸터 */
 .appFooter {
   background-color: orange;
