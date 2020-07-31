@@ -150,7 +150,6 @@ transition: all 200ms ease-in-out;
 
 /* 모바일 메인 콘텐츠 */
 .appMain {
-  background-color: lime;
   display: flex;
   flex-flow: row wrap;
   padding: 10px 20px;
@@ -160,6 +159,10 @@ transition: all 200ms ease-in-out;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+/* 모바일 인기 사이트  */
+.favorite__list a:hover::after, .favorite__list a:focus::after{
+ left: 10em;
 }
 /* 모바일 푸터 */
 .appFooter {
